@@ -102,6 +102,12 @@ build CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o: CXX_COMPILER__C_Debug /Users/adams
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/Seneca/W7
 
+build CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -110,7 +116,7 @@ build CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o: CXX_COMPILER__C_Debug /Users/adams
 #############################################
 # Link the executable C
 
-build C: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.cpp.o CMakeFiles/C.dir/Circle.cpp.o CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o
+build C: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.cpp.o CMakeFiles/C.dir/Circle.cpp.o CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
   OBJECT_DIR = CMakeFiles/C.dir
   POST_BUILD = :

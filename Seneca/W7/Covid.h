@@ -8,12 +8,12 @@
 
 #include <string>
 #include <vector>
+#include <list>
 
-class Covid {
+struct Covid {
     std::string country, city, variant;
     unsigned year, deaths_count;
     int cases_count;
-    friend class CovidCollection;
 };
 
 
@@ -21,9 +21,17 @@ class CovidCollection {
     std::vector<Covid*> covid_collection;
 public:
     CovidCollection(const char* filename);
+    bool inCollection(const std::string&) const;
     void display(std::ostream& out) const;
+    void sort(const std::string&);
+    void cleanList();
+    std::list<Covid> getListForCountry(const std::string&) const;
+    std::list<Covid> getListForVariant(const std::string&) const;
+
 
 };
+
+std::ostream& operator<<(std::ostream& out, const Covid& theCovid);
 
 
 
