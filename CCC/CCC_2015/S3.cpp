@@ -19,9 +19,8 @@ unsigned Collision::count_till_collision() {
     for (auto i = 0u; i < plane_count; ++i) {
 
         file >> index;
-        if (!gates[index]) {
-            occupy(index);
-        } else {
+        if (!gates[index]) occupy(index);
+        else {
             index = **gates[index];
             if (index == 0u) return count;
             occupy(index);
@@ -29,6 +28,7 @@ unsigned Collision::count_till_collision() {
     }
     return count;
 }
+
 
 void Collision::occupy(unsigned int index) {
     ++count;
@@ -39,6 +39,7 @@ void Collision::occupy(unsigned int index) {
     } else if (gates[index-1] && gates[index+1]) {
         gates[index] = gates[index+1];
         delete *gates[index];
+        delete gates[index];
         *gates[index] = *gates[index-1];
     } else if (gates[index-1]) {
         gates[index] = gates[index-1];
