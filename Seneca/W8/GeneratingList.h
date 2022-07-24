@@ -39,7 +39,7 @@ namespace sdds {
             std::vector<unsigned> nums(9);
             for (auto i = 0u; i < sin.size(); ++i) {
                 nums[i] = sin[i] - '0';
-                if (i % 2 == 0) {
+                if (i % 2 != 0) {
                     nums[i] = 2 * nums[i];
                     if (nums[i] > 9) nums[i] = 1 + nums[i] % 10;
                 }
@@ -51,7 +51,12 @@ namespace sdds {
         //TODO: Overload the += operator with a raw pointer
         // as a second operand.
         void operator+=(T* obj) {
-            list.push_back(*obj);
+            list.push_back(std::move(*obj));
+        }
+
+
+        void operator+=(std::unique_ptr<T> obj) {
+            list.push_back(std::move(*obj));
         }
 
 

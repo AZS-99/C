@@ -56,6 +56,17 @@ int main(int argc, char** argv)
             cout << "ERROR: " << msg << endl;
         }
 
+        cout << endl;
+        cout << "********************************************" << endl
+             << "* Merging wrong salaries using Smart Pointers" << endl
+             << "********************************************" << endl;
+        try {
+            GeneratingList<EmployeeWage> empPro = writeSmart(emp, wrongSal);;
+        }
+        catch (const string& msg) {
+            cout << "ERROR: " << msg << std::endl;
+        }
+
         EmployeeWage::Trace = false;
         cout << endl << endl;
         // no exceptions should be generated from the code below.
@@ -64,6 +75,15 @@ int main(int argc, char** argv)
              << "********************************************" << endl;
         {
             GeneratingList<EmployeeWage> empPro = writeRaw(emp, correctSal);
+            cout << setw(5) << "Employee Name" << setw(10) << "Salary" << endl;
+            cout << empPro << endl;
+        }
+
+        cout << "********************************************" << endl
+             << "* Merging good prices using Smart Pointers" << endl
+             << "********************************************" << endl;
+        {
+            GeneratingList<EmployeeWage> empPro = writeSmart(emp, correctSal);
             cout << setw(5) << "Employee Name" << setw(10) << "Salary" << endl;
             cout << empPro << endl;
         }
