@@ -1,5 +1,5 @@
 //
-// Created by Adam Saher on 2022-06-04.
+// Created by Adam Saher on 2022-07-26.
 //
 
 #include "Chequing.h"
@@ -18,7 +18,7 @@ std::ostream &operator<<(std::ostream& os, const Chequing& chequing) {
 
 bool Chequing::deposit(const double &amount) {
     if (transactions < TRANSACTION_LIMIT)
-        return Account::deposit(amount) && ++transactions;
+        return Account::deposit(amount) && transactions++;
     else if (amount + balance > TRANSACTION_FEE) {
         return Account::deposit(amount) && Account::withdraw(TRANSACTION_FEE);
     }
@@ -32,5 +32,6 @@ bool Chequing::withdraw(const double& amount) {
         return Account::withdraw(amount + TRANSACTION_FEE);
 }
 
-
-
+std::ostream& Chequing::print(std::ostream &os) const {
+    return os << balance;
+}

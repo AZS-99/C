@@ -16,6 +16,7 @@ RestaurantNode::RestaurantNode(const bool& path_node, const bool& visited) {
     this->visited = visited;
 }
 
+
 std::ostream &operator<<(std::ostream& os, const RestaurantNode& node) {
     return os << (node.path_node? '*' : '0');
 }
@@ -24,9 +25,9 @@ std::ostream &operator<<(std::ostream& os, const RestaurantNode& node) {
 
 Pho::Pho() {
 
-    path_nodes_count = 1u;
+    path_nodes_count = 1u; // Root is not counted for in MarkPathNodes
 
-    std::ifstream file("Data/CCC/2016/S3");
+    std::ifstream file("Data/CCC/2016/J5_S3");
     unsigned restaurant_count, pho_count, tmp1, tmp2;
     file >> restaurant_count >> pho_count;
     restaurants = std::vector<RestaurantNode*>(restaurant_count);

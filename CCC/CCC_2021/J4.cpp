@@ -8,7 +8,7 @@
 
 
 Books::Books() {
-    std::ifstream file("Data/CCC_2020/J4");
+    std::ifstream file("Data/CCC/2021/J4");
     getline(file, line);
     l = std::count(line.cbegin(), line.cend(), 'L');
     m = std::count(line.cbegin(), line.cend(), 'M');

@@ -24,7 +24,7 @@ Your task is to read a given list of computers and output the top two computers 
 preference to lowest preference.
 
 Input Specification
-The first line of input will be an integer n (0 ≤ n ≤ 10000). Each of the remaining n lines of input will contain a
+The first line of input will be an integer pens_count (0 ≤ pens_count ≤ 10000). Each of the remaining pens_count lines of input will contain a
 computer specification. A computer specification is of the form:
 
 • computer name (a string of less than 20 characters)

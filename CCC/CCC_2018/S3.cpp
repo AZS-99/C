@@ -1,155 +1,191 @@
 //
-// Created by Adam Saher on 2022-04-20.
+// Created by Adam Saher on 2022-04-29.
 //
-
-#include <vector>
-#include <string>
+#include <fstream>
 #include <iostream>
-#include <limits>
-
+#include <array>
+#include <queue>
 #include "S3.h"
 
+Node::Node(const char& ch, unsigned long long value) {
+    this->ch = ch;
+    this->value = value;
+    left = nullptr;
+    right = nullptr;
+    up = nullptr;
+    down = nullptr;
+    visited = false;
+}
 
-//RobotGrid::RobotGrid() {
-//    std::ifstream file("Data/CCC_2018/S3");
-//    file >> rows >> cols;
-//    grid = std::vector<std::vector<char>>(rows);
-//
-//    char ch;
-//    for (auto i = 0u; i < rows; ++i) {
-//        std::vector<char> row(cols);
-//        for (auto j = 0u; j < cols; ++j) {
-//            file >> row[j];
-//            if (row[j] == '.') exit_positions.emplace_back(i, j);
-//            if (row[j] == 'C') cams.emplace_back(i, j);
-//            else if (row[j] == 'S') start = std::make_pair(i, j);
-//        }
-//        grid[i] = row;
-//    }
-//    block_watched_spots();
-//
-//}
-//
-//
-//void RobotGrid::block_watched_spots() {
-//    std::vector<std::pair<unsigned, unsigned>> marked;
-//    for (auto& cam: cams) {
-//        for (auto c = cam.second + 1; c < cols && grid[cam.first][c] != 'W'; ++c)
-//            if (grid[cam.first][c] == '.') {
-//                marked.emplace_back(cam.first, c);
-//            }
-//
-//        for (auto c = cam.second - 1; c > -1 && grid[cam.first][c] != 'W'; --c)
-//            if (grid[cam.first][c] == '.') {
-//                marked.emplace_back(cam.first, c);
-//            }
-//
-//        for (auto r = cam.first + 1; r < rows && grid[r][cam.second] != 'W'; ++r)
-//            if (grid[r][cam.second] == '.') {
-//                marked.emplace_back(r, cam.second);
-//            }
-//
-//        for (auto r = cam.first - 1; r > -1 && grid[r][cam.second] != 'W'; --r)
-//            if (grid[r][cam.second] == '.') {
-//                marked.emplace_back(r, cam.second);
-//            }
-//
-//        grid[cam.first][cam.second] = 'W';
-//    }
-//
-//    for (auto& mark: marked){
-//        grid[mark.first][mark.second] = 'W';
-//    }
-//}
-//
-//
-//
-//std::vector<std::pair<unsigned, unsigned>> RobotGrid::get_neighbours(const std::pair<unsigned, unsigned>& point) const {
-//    auto r = point.first, c = point.second;
-//    std::vector<std::pair<unsigned, unsigned>> neighbours;
-//    if (r > 0 && (grid[r-1][c] == 'D' || grid[r-1][c] == '.' || grid[r-1][c] == 'S')) neighbours.emplace_back(r-1, c);
-//    if (r+1 < rows && (grid[r+1][c] == 'U' || grid[r+1][c] == '.' || grid[r+1][c] == 'S')) neighbours.emplace_back(r+1, c);
-//    if (c > 0 && (grid[r][c-1] == 'R' || grid[r][c+1] == '.' || grid[r][c-1] == 'S')) neighbours.emplace_back(r, c-1);
-//    if (c+1 < cols && (grid[r][c+1] == 'L' || grid[r][c+1] == '.' || grid[r][c+1] == 'S')) neighbours.emplace_back(r, c+1);
-//    return neighbours;
-//}
-//
-//
-//
-//float RobotGrid::count_steps_to_start(const std::pair<unsigned int, unsigned int>& point) {
-//    if (point == start) return 0;
-//    if (is_blocked(point)) return std::numeric_limits<float>::infinity();
-//
-//
-//    unsigned r = point.first, c = point.second;
-//    bool is_dot = grid[r][c] == '.';
-//
-//    auto neigbours = get_neighbours(point);
-//    auto count =  std::numeric_limits<float>::infinity();
-//    for (auto& restaurants_count: neigbours) {
-//        if (is_dot) mark(point);
-//        auto new_count = count_steps_to_start(restaurants_count);
-//        if (is_dot) new_count++;
-//        if (new_count < count) {
-//            count = new_count;
-//        }
-//
-//    }
-//    if (is_dot) unmark(point);
-//    return count;
-//
-//}
+std::ostream &operator<<(std::ostream& os, const Node& node) {
+    os << "ch:" << node.ch << std::endl;
+    os << "value:" << node.value << std::endl;
+    os << "left:" << (node.left? 'X' : node.left->ch) << std::endl;
+//    os << "right:" << (node.right? 'X': node.right->ch) << std::endl;
+//    os << "up:" << (node.up? 'X': node.up->ch) << std::endl;
+//    os << "down:" << (node.down? 'X': node.down->ch) << std::endl;
+    os << (node.visited? "visited" : "not visited") << std::endl;
+    os << "****";
+}
 
-//
-//std::ostream &operator<<(std::ostream &os, const RobotGrid& g) {
-//    for (auto i = 0u; i < g.rows; ++i) {
-//        for (auto j = 0u; j < g.cols; ++j)
-//            os << g.grid[i][j];
-//        os << std::endl;
-//    }
-//    return os;
-//}
-//
-//void RobotGrid::mark(const std::pair<unsigned int, unsigned int>& point) {
-//    if (grid[point.first][point.second] == '.') grid[point.first][point.second] = 'M';
-//}
-//
-//void RobotGrid::unmark(const std::pair<unsigned int, unsigned int>& point) {
-//    grid[point.first][point.second] = '.';
-//}
-//
-//bool RobotGrid::is_blocked(const std::pair<unsigned int, unsigned int>& point) const {
-//    return grid[point.first][point.second] == 'M' || grid[point.first][point.second] == 'W';
-//}
-//
-//void RobotGrid::output() {
-//    for (auto& point: exit_positions) {
-//        std::cout << '(' << point.first << ", " << point.second << "): ";
-//        std::cout << grid[point.first][point.second];
-//        std::cout << count_steps_to_start(point) << std::endl;
-//    }
-//}
+
+RobotGrid::RobotGrid() {
+    std::ifstream file("Data/CCC_2018/S3");
+    file >> rows >> cols;
+    char ch;
+    grid = std::vector<std::vector<Node*>>(rows);
+    for (auto i = 0u; i < rows; ++i) {
+        std::vector<Node*> row(cols);
+        for (auto j = 0u; j < cols; ++j) {
+            file >> ch;
+            row[j] = new Node(ch);
+            if (ch == '.') exit_positions.push_back(row[j]);
+            else if (ch == 'C') cams.emplace_back(i, j);
+            else if (ch == 'S') {
+                start = row[j];
+                start->value = 0;
+            }
+        }
+        grid[i] = row;
+    }
+    block_watched_spots();
+
+    Node* node;
+    for (auto i = 0u; i < rows; ++i) {
+        for (auto j = 0u; j < cols; ++j) {
+
+            node = grid[i][j];
+            ch = node->ch;
+
+            node->x = i;
+            node->y = j;
+
+            if (!(ch == 'W' || ch == 'C')) {
+
+                if (i > 0 && (ch == '.' || ch == 'U' || ch == 'S')) {
+                    if (!(grid[i-1][j]->ch == 'W' || grid[i-1][j]->ch == 'D' || grid[i-1][j]->ch == 'S'))
+                        node->up = grid[i-1][j];
+                }
+
+                if (i < rows - 1 && (ch == '.' || ch == 'D' || ch == 'S')) {
+                    if (!(grid[i+1][j]->ch == 'W' || grid[i+1][j]->ch == 'U' || grid[i+1][j]->ch == 'S'))
+                        node->down = grid[i+1][j];
+                }
+
+                if (j > 0 && (ch == '.' || ch == 'L' || ch == 'S'))
+                    if (!(grid[i][j-1]->ch == 'W' || grid[i][j-1]->ch == 'R' || grid[i][j-1]->ch == 'S')) {
+                        node->left = grid[i][j-1];
+                }
+
+                if (j < cols - 1 && (ch == '.' || ch == 'R' || ch == 'S')) {
+                    if (!(grid[i][j+1]->ch == 'W' || grid[i][j+1]->ch == 'L' || grid[i][j+1]->ch == 'S'))
+                        node->right = grid[i][j+1];
+                }
+            }
+        }
+    }
+    dijkstra_vec.push_back(start);
+    dijkstra(dijkstra_vec);
+}
 
 
 
-//std::vector<std::pair<unsigned, unsigned>> RobotGrid::get_neighbours(std::pair<unsigned, unsigned> point)  {
-//    auto r_min = point.first > 0? point.first - 1 : 0;
-//    auto r_max = point.first < rows - 1? point.first + 1 : point.first;
-//    auto c_min = point.second > 0? point.second - 1 : 0;
-//    auto c_max = point.second < cols - 1? point.second + 1 : point.second;
-//
-//    std::vector<std::pair<unsigned, unsigned>> neighbours;
-//    for (auto r = r_min; r <= r_max; ++r) {
-//        for (auto c = c_min; c <= c_max; ++c)
-//            if (!(r == point.first && c == point.second) && !grid[r][c].second) {
-//                neighbours.emplace_back(r, c);
-//            }
-//    }
-//
-//    return neighbours;
-//
-//}
 
+void RobotGrid::block_watched_spots() {
+    std::vector<Node*> marked;
+    for (auto& cam: cams) {
+
+        auto cam_r = cam.first;
+        auto cam_c = cam.second;
+        for (auto c = cam_c + 1; grid[cam_r][c]->ch != 'W'; ++c) {
+            if (grid[cam_r][c]->ch == '.')
+                marked.push_back(grid[cam_r][c]);
+        }
+
+        for (auto c = cam_c - 1; grid[cam_r][c]->ch != 'W'; --c) {
+            if (grid[cam_r][c]->ch == '.')
+                marked.push_back(grid[cam_r][c]);
+        }
+
+        for (auto r = cam_r + 1; grid[r][cam_c]->ch != 'W'; ++r) {
+            if (grid[r][cam_c]->ch == '.')
+                marked.push_back(grid[r][cam_c]);
+        }
+
+
+        for (auto r = cam_r - 1; grid[r][cam_c]->ch != 'W'; --r) {
+            if (grid[r][cam_c]->ch == '.') {
+                marked.push_back(grid[r][cam_c]);
+            }
+        }
+        grid[cam_r][cam_c]->ch = 'W';
+    }
+
+
+    for (auto& node: marked){
+        node->ch = 'W';
+    }
+}
+
+
+
+
+void RobotGrid::dijkstra(std::vector<Node*>& dij_vec) {
+    if (std::all_of(dij_vec.cbegin(), dij_vec.cend(), [] (const Node* node) { return node->visited; })) return;
+
+    auto it = std::min_element(dij_vec.cbegin(), dij_vec.cend(), [] (const Node* node1, const Node* node2) {
+        return node1->value < node2->value;
+    });
+
+    auto node = *it;
+
+    node->visited = true;
+
+    if (node->right && !node->right->visited) {
+        if (node->right->ch == '.') {
+            if (node->right->value > node->value + 1) node->right->value = node->value + 1;
+        } else if (node->right->value > node->value) node->right->value = node->value;
+        dij_vec.push_back(node->right);
+    }
+
+
+    if (node->left && !node->left->visited) {
+        if (node->left->ch == '.') {
+            if (node->left->value > node->value + 1) node->left->value = node->value + 1;
+        }
+        else if (node->left->value > node->value) node->left->value = node->value;
+        dij_vec.push_back(node->left);
+    }
+
+    if (node->down && !node->down->visited) {
+        if (node->down->ch == '.') {
+            if (node->down->value > node->value + 1) node->down->value = node->value + 1;
+        } else if (node->down->value > node->value) node->down->value = node->value;
+        dij_vec.push_back(node->down);
+    }
+
+    if (node->up && !node->up->visited) {
+        if (node->up->ch == '.') {
+            if (node->up->value > node->value + 1)  node->up->value = node->value + 1;
+        } else if (node->up->value > node->value) node->up->value = node->value;
+        dij_vec.push_back(node->up);
+    }
+
+
+    dij_vec.erase(it);
+    dijkstra(dij_vec);
+
+}
+
+
+std::ostream& operator<<(std::ostream& os, const RobotGrid& RG) {
+    for (auto& row: RG.grid) {
+        for (auto& n: row)
+            os << (n->value < 100? std::to_string(n->value) : "∞") << ' ';
+        os << std::endl;
+    }
+    return os;
+}
 
 
 

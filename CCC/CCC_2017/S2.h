@@ -8,7 +8,7 @@
 
 
 
-std::vector<unsigned> arrange(std::vector<unsigned>&);
+
 
 
 #endif //CCC_S2_H

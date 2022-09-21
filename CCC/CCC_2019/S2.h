@@ -2,13 +2,13 @@
 // Created by Adam Saher on 2022-04-17.
 //
 
-#ifndef CCC_S2_GOLDBACHS_CONJECTURE_H
-#define CCC_S2_GOLDBACHS_CONJECTURE_H
+#ifndef CCC_S2_H
+#define CCC_S2_H
 
 #include <vector>
 #include <iostream>
 /*
-Problem Description
+Problem Description (GOLDBACHS_CONJECTURE)
 For various given positive integers N > 3, find two primes, A and B such that N is the average (mean) of A and B. That
  is, N should be equal to (A + B)/2.
 Recall that a prime number is an integer P > 1 which is only divisible by 1 and P . For example, 2, 3, 5, 7, 11 are the

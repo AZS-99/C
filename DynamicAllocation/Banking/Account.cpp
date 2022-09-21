@@ -1,12 +1,9 @@
 //
-// Created by Adam Saher on 2022-06-04.
+// Created by Adam Saher on 2022-07-26.
 //
 
 #include <cstring>
 #include "Account.h"
-
-
-
 Account::Account(const char* first_name, const char* surname, const char* s, const double& balance) : sin {s[0], s[1], s[2], s[3], s[4], s[5], s[6], s[7], s[8], '\0'} {
     this->balance = balance;
 
@@ -16,13 +13,10 @@ Account::Account(const char* first_name, const char* surname, const char* s, con
     this->surname = new char[strlen(surname)];
     strcpy(this->surname, surname);
 
+    transactions = 0u;
+
 }
 
-std::ostream &operator<<(std::ostream& os, const Account& account) {
-    os << "Name: " << account.first_name << ' ' << account.surname << std::endl;
-    os << "Balance: " << account.balance;
-    return os;
-}
 
 bool Account::deposit(const double& amount) {
     if (amount > 0) {
@@ -39,3 +33,7 @@ bool Account::withdraw(const double& amount) {
     }
     return false;
 }
+
+//std::ostream &Account::print(std::ostream& os) const {
+//    return os << balance;
+//}

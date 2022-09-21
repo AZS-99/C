@@ -3,6 +3,7 @@
 //
 
 #include <array>
+#include <fstream>
 #include <algorithm>
 #include "S1.h"
 
@@ -27,6 +28,10 @@ However, if the remainder is ε [1, 2, 3, 6, 7, 11] (no way to get them using 4s
 */
 
 unsigned count_4s_5s(const unsigned& n) {
-    std::array<unsigned, 6> zero_values = {{1, 2, 3, 4, 7, 11}};
-    return n / 20 + (std::find(zero_values.cbegin(), zero_values.cend(), n % 20) == zero_values.cend()? 1 : 0);
+    unsigned num;
+    std::ifstream file("Data/CCC/2022/S1");
+    file >> num;
+    unsigned rem = num % 20;
+    if (rem == 1 || rem == 2 || rem == 3 || rem == 6 || rem == 7 || rem == 11) return 0;
+    return num/20u + 1;
 }

@@ -74,75 +74,393 @@ build cmake_object_order_depends_target_C: phony || CMakeFiles/C.dir
 
 build CMakeFiles/C.dir/main.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/main.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir
 
 build CMakeFiles/C.dir/Circle.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/Circle.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/Circle.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir
 
+build CMakeFiles/C.dir/CCC/CCC_2021/J4.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2021/J4.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2021/J4.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2021
+
 build CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_1999/S4.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_1999
 
 build CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2016/S3.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2016
 
 build CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/Seneca/W7/Covid.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/Seneca/W7
 
 build CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/S3.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
 
 build CMakeFiles/C.dir/CCC/CCC_2011/S1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2011/S1.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2011/S1.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2011
 
 build CMakeFiles/C.dir/CCC/CCC_2011/S2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2011/S2.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2011/S2.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2011
 
 build CMakeFiles/C.dir/CCC/CCC_2010/S1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/S1.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/S1.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
 
 build CMakeFiles/C.dir/CCC/CCC_2015/S1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/S1.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/S1.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
 
 build CMakeFiles/C.dir/CCC/CCC_2015/S2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/S2.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/S2.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
 
 build CMakeFiles/C.dir/Seneca/W8/WritingRecord.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/Seneca/W8/WritingRecord.cpp || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles/C.dir/Seneca/W8/WritingRecord.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++20
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
   OBJECT_DIR = CMakeFiles/C.dir
   OBJECT_FILE_DIR = CMakeFiles/C.dir/Seneca/W8
+
+build CMakeFiles/C.dir/CCC/CCC_2014/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2014/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2014/S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2014
+
+build CMakeFiles/C.dir/DynamicAllocation/Banking/iAccount.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DynamicAllocation/Banking/iAccount.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DynamicAllocation/Banking/iAccount.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DynamicAllocation/Banking
+
+build CMakeFiles/C.dir/DynamicAllocation/Banking/Savings.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DynamicAllocation/Banking/Savings.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DynamicAllocation/Banking/Savings.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DynamicAllocation/Banking
+
+build CMakeFiles/C.dir/DynamicAllocation/Banking/Account.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DynamicAllocation/Banking/Account.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DynamicAllocation/Banking/Account.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DynamicAllocation/Banking
+
+build CMakeFiles/C.dir/DynamicAllocation/Banking/Chequing.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DynamicAllocation/Banking/Chequing.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DynamicAllocation/Banking/Chequing.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DynamicAllocation/Banking
+
+build CMakeFiles/C.dir/CCC/CCC_2009/S2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2009/S2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2009/S2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2009
+
+build CMakeFiles/C.dir/CCC/CCC_2013/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2013/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2013/S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2013
+
+build CMakeFiles/C.dir/CCC/CCC_2022/S1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2022/S1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2022/S1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2022
+
+build CMakeFiles/C.dir/CCC/CCC_2020/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2020/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2020/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2020
+
+build CMakeFiles/C.dir/CCC/CCC_2012/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2012/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2012/S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2012
+
+build CMakeFiles/C.dir/CCC/CCC_2004/S2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2004/S2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2004/S2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2004
+
+build CMakeFiles/C.dir/CCC/CCC_2000/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2000/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2000/S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2000
+
+build CMakeFiles/C.dir/CCC/CCC_2012/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2012/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2012/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2012
+
+build CMakeFiles/C.dir/CCC/CCC_2011/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2011/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2011/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2011
+
+build CMakeFiles/C.dir/CCC/CCC_2017/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2017/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2017/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2017
+
+build CMakeFiles/C.dir/CCC/CCC_2018/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2018/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2018/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2018
+
+build CMakeFiles/C.dir/CCC/CCC_2017/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2017/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2017/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2017
+
+build CMakeFiles/C.dir/CCC/CCC_2016/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2016/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2016/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2016
+
+build CMakeFiles/C.dir/CCC/CCC_2016/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2016/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2016/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2016
+
+build CMakeFiles/C.dir/CCC/CCC_2015/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
+
+build CMakeFiles/C.dir/CCC/CCC_2019/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2019/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2019/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2019
+
+build CMakeFiles/C.dir/CCC/CCC_2018/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2018/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2018/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2018
+
+build CMakeFiles/C.dir/CCC/CCC_2014/S2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2014/S2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2014/S2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2014
+
+build CMakeFiles/C.dir/DataStructure/String/String.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DataStructure/String/String.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DataStructure/String/String.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DataStructure/String
+
+build CMakeFiles/C.dir/CCC/CCC_2021/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2021/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2021/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2021
+
+build CMakeFiles/C.dir/CCC/CCC_2011/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2011/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2011/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2011
+
+build CMakeFiles/C.dir/CCC/CCC_2010/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
+
+build CMakeFiles/C.dir/CCC/CCC_2010/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
+
+build CMakeFiles/C.dir/CCC/CCC_2015/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2015/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2015/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2015
+
+build CMakeFiles/C.dir/CCC/CCC_2014/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2014/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2014/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2014
+
+build CMakeFiles/C.dir/CCC/CCC_2014/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2014/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2014/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2014
+
+build CMakeFiles/C.dir/CCC/CCC_2012/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2012/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2012/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2012
+
+build CMakeFiles/C.dir/CCC/CCC_2001/J5_S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2001/J5_S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2001/J5_S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2001
+
+build CMakeFiles/C.dir/CCC/CCC_2011/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2011/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2011/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2011
+
+build CMakeFiles/C.dir/CCC/CCC_2010/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
+
+build CMakeFiles/C.dir/CCC/CCC_2002/J5S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2002/J5S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2002/J5S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2002
+
+build CMakeFiles/C.dir/CCC/CCC_2009/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2009/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2009/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2009
+
+build CMakeFiles/C.dir/CCC/CCC_2009/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2009/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2009/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2009
+
+build CMakeFiles/C.dir/CCC/CCC_2008/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2008/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2008/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2008
+
+build CMakeFiles/C.dir/CCC/CCC_2008/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2008/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2008/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2008
+
+build CMakeFiles/C.dir/CCC/CCC_2010/S3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/S3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/S3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
+
+build CMakeFiles/C.dir/CCC/CCC_2005/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2005/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2005/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2005
+
+build CMakeFiles/C.dir/CCC/CCC_2008/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2008/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2008/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2008
+
+build CMakeFiles/C.dir/CCC/CCC_2007/J2.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2007/J2.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2007/J2.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2007
+
+build CMakeFiles/C.dir/CCC/CCC_2007/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2007/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2007/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2007
+
+build CMakeFiles/C.dir/CCC/CCC_2006/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2006/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2006/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2006
+
+build CMakeFiles/C.dir/CCC/CCC_2010/S4.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2010/S4.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2010/S4.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2010
+
+build CMakeFiles/C.dir/CCC/CCC_2005/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2005/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2005/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2005
+
+build CMakeFiles/C.dir/CCC/CCC_2004/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2004/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2004/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2004
+
+build CMakeFiles/C.dir/CCC/CCC_2003/J1.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2003/J1.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2003/J1.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2003
+
+build CMakeFiles/C.dir/CCC/CCC_2001/J3.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/CCC/CCC_2001/J3.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/CCC/CCC_2001/J3.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/CCC/CCC_2001
+
+build CMakeFiles/C.dir/DataStructure/String/ConstIterator.cpp.o: CXX_COMPILER__C_Debug /Users/adamsaher/Library/Mobile$ Documents/com~apple~CloudDocs/C/DataStructure/String/ConstIterator.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles/C.dir/DataStructure/String/ConstIterator.cpp.o.d
+  FLAGS = -g -mmacosx-version-min=11.6 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/C.dir
+  OBJECT_FILE_DIR = CMakeFiles/C.dir/DataStructure/String
 
 
 # =============================================================================
@@ -152,8 +470,8 @@ build CMakeFiles/C.dir/Seneca/W8/WritingRecord.cpp.o: CXX_COMPILER__C_Debug /Use
 #############################################
 # Link the executable C
 
-build C: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.cpp.o CMakeFiles/C.dir/Circle.cpp.o CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/S2.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S2.cpp.o CMakeFiles/C.dir/Seneca/W8/WritingRecord.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
+build C: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.cpp.o CMakeFiles/C.dir/Circle.cpp.o CMakeFiles/C.dir/CCC/CCC_2021/J4.cpp.o CMakeFiles/C.dir/CCC/CCC_1999/S4.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/S3.cpp.o CMakeFiles/C.dir/Seneca/W7/Covid.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/S2.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/S2.cpp.o CMakeFiles/C.dir/Seneca/W8/WritingRecord.cpp.o CMakeFiles/C.dir/CCC/CCC_2014/S3.cpp.o CMakeFiles/C.dir/DynamicAllocation/Banking/iAccount.cpp.o CMakeFiles/C.dir/DynamicAllocation/Banking/Savings.cpp.o CMakeFiles/C.dir/DynamicAllocation/Banking/Account.cpp.o CMakeFiles/C.dir/DynamicAllocation/Banking/Chequing.cpp.o CMakeFiles/C.dir/CCC/CCC_2009/S2.cpp.o CMakeFiles/C.dir/CCC/CCC_2013/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2022/S1.cpp.o CMakeFiles/C.dir/CCC/CCC_2020/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2012/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2004/S2.cpp.o CMakeFiles/C.dir/CCC/CCC_2000/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2012/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2017/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2018/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2017/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2016/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2019/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2018/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2014/S2.cpp.o CMakeFiles/C.dir/DataStructure/String/String.cpp.o CMakeFiles/C.dir/CCC/CCC_2021/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2015/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2014/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2014/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2012/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2001/J5_S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2011/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2002/J5S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2009/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2009/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2008/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2008/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/S3.cpp.o CMakeFiles/C.dir/CCC/CCC_2005/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2008/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2007/J2.cpp.o CMakeFiles/C.dir/CCC/CCC_2007/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2006/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2010/S4.cpp.o CMakeFiles/C.dir/CCC/CCC_2005/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2004/J3.cpp.o CMakeFiles/C.dir/CCC/CCC_2003/J1.cpp.o CMakeFiles/C.dir/CCC/CCC_2001/J3.cpp.o CMakeFiles/C.dir/DataStructure/String/ConstIterator.cpp.o
+  FLAGS = -g -mmacosx-version-min=11.6
   OBJECT_DIR = CMakeFiles/C.dir
   POST_BUILD = :
   PRE_LINK = :

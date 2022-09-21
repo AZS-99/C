@@ -2,7 +2,7 @@
 // Created by Adam Saher on 2022-07-14.
 //
 
-#ifndef C_S3_H
+#ifndef C_J5_S3_H
 #define C_S3_H
 
 
@@ -77,4 +77,4 @@ public:
 
 
 
-#endif //C_S3_H
+#endif //C_J5_S3_H

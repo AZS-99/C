@@ -3,7 +3,7 @@
 //
 
 #include <vector>
-#include "S2_goldbachs_conjecture.h"
+#include "S2.h"
 
 std::vector<bool> sieve(const unsigned& num) {
     std::vector<bool> primes(num, true);
@@ -19,11 +19,11 @@ std::vector<bool> sieve(const unsigned& num) {
 
 
 std::pair<unsigned, unsigned> find_prime_pair(const unsigned& num) {
-    auto primes = sieve(num * 2 + 1);
-    auto size = primes.size();
-    for (auto i = 0u; i < size / 2; ++i) {
-        if (primes[i] && primes[size - i - 1])
-            return std::make_pair(i, size - i - 1);
+    auto upper_limit = num * 2;
+    auto primes = sieve(upper_limit);
+    for (auto i = 0u; i < num; ++i) {
+        if (primes[i] && primes[upper_limit - i])
+            return std::make_pair(i, upper_limit - i);
     }
     return std::make_pair(0, 0);
 }
